@@ -17,4 +17,4 @@ public class clase_1 {
         System.out.println("Tu puntaje es: " + calificacion);
     }
 }
-}
+
