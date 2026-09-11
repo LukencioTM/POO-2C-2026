@@ -15,6 +15,9 @@ public class clase_1 {
             calificacion = 'F';
         }
         System.out.println("Tu puntaje es: " + calificacion);
+        int[] a = new int[5];
+        a[4] = 3;
+        System.out.println(a.length);
     }
 }
 
