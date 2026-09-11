@@ -5,6 +5,20 @@ public class clase_3 {
          * ...
          * } while (condicion);
          */
-        
+        int numero = 28;
+        int i = 1;
+        int suma = 0;
+
+        do  {
+            if (numero % i == 0) {
+                suma += i;
+            }
+        } while (i <= numero / 2); {
+
+        }
+
+
     }
+
+
 }
