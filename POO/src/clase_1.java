@@ -18,6 +18,8 @@ public class clase_1 {
         int[] a = new int[5];
         a[4] = 3;
         System.out.println(a.length);
+
     }
+
 }
 

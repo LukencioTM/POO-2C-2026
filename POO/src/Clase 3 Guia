@@ -148,5 +148,48 @@ Cada línea tiene un problema. Indicá cuál y por qué.
 int[] a = new int[5];
 a[5] = 3; --> OutOfBoundsException: Se intenta agregar un elemento fuera del rango inicial del arreglo
 System.out.println(a.length()); --> "length" es un atributo, y por lo tanto no se utiliza "()"
-Auto[] autos = new Auto[2]; -->
-autos[0].acelerar(); -->
+Auto[] autos = new Auto[2]; --> No se instancio ningun objeto "Auto".
+autos[0].acelerar(); --> Al no instanciarse ningun objeto "Auto"
+este no poseera ningun metodo utilizable.
+
+
+Ejercicio 3.4 · Escribí el código
+Dado int[] numeros ya cargado, escribí el fragmento que resuelve cada punto:
+
+int suma = 0;
+int numeroMayor = 0;
+int numerosMayoresADiez = 0;
+int[] numeros = new int[3];
+numeros[0] = 5;
+numeros[1] = 23;
+numeros[2] = 7;
+
+for (int i = 0; i < numeros.length; i++) {
+    if (numeroMayor < numeros[i]) {
+        numeroMayor = numeros[i];
+    }
+    if (numeros[i] > 10) {
+        numerosMayoresADiez++
+    }
+    suma += numeros[i];
+}
+System.out.println("Suma total: " + suma);
+System.out.println("Numero mayor: " + numeroMayor);
+System.out.println("Numeros mayores a 10: " + numerosMayoresADiez);
+
+
+Ejercicio 3.5 · Primitivos vs. referencia
+1) Indicá el valor por defecto de cada posición
+recién creado el arreglo: int[], double[], boolean[],String[].
+int[] = 0 | double[] = 0.0
+boolean[] = false | String[] = null
+
+
+2) En un arreglo de objetos
+¿qué guarda realmente cada posición: el objeto o una referencia? Explicá
+Cada posicion del arreglo guarda la referencia del objeto, no el objeto.
+Es decir, su direccion en memoria
+
+
+BLOQUE 4 Registro de temperaturas
+
