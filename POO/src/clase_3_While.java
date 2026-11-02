@@ -1,4 +1,4 @@
-public class clase_2 {
+public class clase_3_While {
     public static void main(String[] args) {
         // Inicializamos numero, auxiliar a utilizar en calculo, ultimoDigito para almacenarlo.
         // Inicializamos calculo para la potencia y suma para sumar el total de cada calculo.

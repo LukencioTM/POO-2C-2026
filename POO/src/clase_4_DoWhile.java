@@ -1,4 +1,4 @@
-public class clase_3 {
+public class clase_4_DoWhile {
     public static void main(String[] args) {
         /*
          * do {

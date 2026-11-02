@@ -1,4 +1,4 @@
-public class clase_1 {
+public class clase_1_ElseIf {
     public static void main(String[] args) {
         int puntaje = 95;
         char calificacion;
