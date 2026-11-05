@@ -1,5 +1,3 @@
-package clase_2;
-
 public class clase_2_For {
     public static void main(String[] args) {
         // Blucle repetitivo for
