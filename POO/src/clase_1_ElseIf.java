@@ -3,9 +3,12 @@ public class clase_1_ElseIf {
         int puntaje = 95;
         char calificacion;
 
+        // if (A condicion B) {}  // "< > <= >= =="
+        // && = and  || = or
+        // if (A condicion B && C condicion D || E condicion F) {}
         if (puntaje >= 90) {
             calificacion = 'A';
-        } else if (puntaje >=80) {
+        } else if (puntaje >= 80) {
             calificacion = 'B';
         } else if (puntaje >= 70) {
             calificacion = 'B';
@@ -15,10 +18,6 @@ public class clase_1_ElseIf {
             calificacion = 'F';
         }
         System.out.println("Tu puntaje es: " + calificacion);
-        int[] a = new int[5];
-        a[4] = 3;
-        System.out.println(a.length);
-
     }
 
 }
