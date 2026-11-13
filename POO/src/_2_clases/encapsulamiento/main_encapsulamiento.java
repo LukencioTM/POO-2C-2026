@@ -1,8 +1,6 @@
-package clase_6_Clases.encapsulamiento;
+package _2_clases.encapsulamiento;
 
-import clase_6_Clases.Persona;
-
-public class main {
+public class main_encapsulamiento {
     public static void main(String[] args) {
         PersonaEncapsulada personita = new PersonaEncapsulada();
         System.out.println(personita.getEdad());

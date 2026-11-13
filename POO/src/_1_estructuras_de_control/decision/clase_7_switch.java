@@ -1,3 +1,5 @@
+package _1_estructuras_de_control.decision;
+
 public class clase_7_switch {
     public static void main(String args[]) {
         // Switch: Multiples "elif" que funcionan como opciones de condicion de parada

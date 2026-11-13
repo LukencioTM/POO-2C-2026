@@ -1,3 +1,5 @@
+package _1_estructuras_de_control.bucles;
+
 public class clase_2_For {
     public static void main(String[] args) {
         // Blucle repetitivo for

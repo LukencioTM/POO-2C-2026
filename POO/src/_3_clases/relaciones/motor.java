@@ -1,4 +1,4 @@
-package clase_7_relaciones;
+package _3_clases.relaciones;
 
 public class motor {
     private int velocidad = 0;

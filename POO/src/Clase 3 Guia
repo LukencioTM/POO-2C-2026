@@ -18,7 +18,7 @@ b) El mismo bytecode lo ejecuta la JVM de cada plataforma.
 
 5) El CLASSPATH es:
 b) Una variable de entorno del SO
-que indica dónde buscar clases y librerías.
+que indica dónde buscar _2_clases y librerías.
 
 Ejercicio 1.2 · Verdadero o Falso
 _V_ La JVM es parte del JRE.
@@ -34,7 +34,7 @@ JRE --> Entorno de ejecución: lo mínimo para correr un programa Javaya compila
 JVM --> Máquina virtual que ejecuta el bytecode sobre cada plataforma.
 javac --> Programa que compila el código fuente a bytecode
 .class --> Archivo que contiene el bytecode generado.
-Classpath --> Variable de entorno donde se buscan las clases y librerías.
+Classpath --> Variable de entorno donde se buscan las _2_clases y librerías.
 
 Ejercicio 1.4 · Ordenar el proceso
 _3_ Bytecode (.class)
@@ -61,7 +61,7 @@ que sea compilado con otras instrucciones para cada sistema operativo que se uti
 si el CLASSPATH no esta bien configurado, pueden ocurrir errores
 de ejecucion cuando el JVM no encuentra los archivos .class en las rutas indicadas,
 o de compilacion al no poseer las definiciones de
-las clases y librerias que estan siendo utilizadas en el codigo
+las _2_clases y librerias que estan siendo utilizadas en el codigo
 
 ==================================================================================
 Bloque 2 - Estructura de un programa y convenciones denomenclatura
@@ -79,7 +79,7 @@ void hacer() { ... } -->
 
 Ejercicio 2.2 · camelCase vs PascalCase
 Corregí cada identificador según la convención que le corresponde
-(clases en PascalCase; variables y métodosenlowerCamelCase).
+(_2_clases en PascalCase; variables y métodosenlowerCamelCase).
 
 clase: cuenta_bancaria --> cuentaBancaria
 variable: SaldoTotal --> saldoTotal

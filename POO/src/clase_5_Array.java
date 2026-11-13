@@ -1,4 +1,4 @@
-public class clase_5_Array {
+    public class clase_5_Array {
     public static void main(String[] args) {
         // Arrays estaticos
         int[] lista = new int[6]; // Creacion de array con 5 "casillas"

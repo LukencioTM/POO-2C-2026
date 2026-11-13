@@ -1,4 +1,4 @@
-package clase_6_Clases.encapsulamiento;
+package _2_clases.encapsulamiento;
 
 public class PersonaEncapsulada {
     // El encapsulamiento es en escencia, restringir el acceso directo a los datos internos de un objeto

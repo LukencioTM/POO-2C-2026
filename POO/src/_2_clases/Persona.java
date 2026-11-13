@@ -1,4 +1,4 @@
-package clase_6_Clases;
+package _2_clases;
 
 public class Persona {
     // CLase 6: CLASES

@@ -1,4 +1,4 @@
-package clase_7_relaciones;
+package _3_clases.relaciones;
 
 // Clase bomba con danio como atributo y un metodo para hacer daño sobre otra clase que lo permita
 public class bomba {

@@ -1,3 +1,5 @@
+package _1_estructuras_de_control.bucles;
+
 public class clase_3_While {
     public static void main(String[] args) {
         // Inicializamos numero, auxiliar a utilizar en calculo, ultimoDigito para almacenarlo.

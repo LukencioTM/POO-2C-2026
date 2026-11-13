@@ -1,4 +1,4 @@
-package clase_7_relaciones;
+package _3_clases.relaciones;
 
 // Clase submarino con 100 de vida como atributo y sus getter y setter
 public class submarino {

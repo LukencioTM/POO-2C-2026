@@ -1,6 +1,6 @@
-package clase_7_relaciones;
+package _3_clases.relaciones;
 
-public class main {
+public class main_relaciones {
     public static void main(String[] args) {
         antena ant = new antena();
         submarino sub = new submarino(ant);

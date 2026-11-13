@@ -1,6 +1,6 @@
-package clase_6_Clases;
+package _2_clases;
 
-public class clase_6_Clases {
+public class main_clases {
     public static void main(String[] args) {
         // Instanciacion con constructor normal
         Persona Roberto = new Persona("Roberto", "Constanza", 45147200, 13092004);

@@ -1,3 +1,5 @@
+package _1_estructuras_de_control.decision;
+
 public class clase_1_ElseIf {
     public static void main(String[] args) {
         int puntaje = 95;
