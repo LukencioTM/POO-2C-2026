@@ -1,5 +1,6 @@
 package bts;
 
+import java.util.Random;
 import java.util.Scanner;
 import java.util.random.*;
 
@@ -8,6 +9,7 @@ public class main {
         int opcion;
         String esposo = "nadie XD";
         String amante = "nadie XD";
+        Random rand = new Random();
         bts jimin = new bts("Jimin", 1);
         bts jungkook = new bts("Jungkook", 2);
         bts taehyung = new bts("Taehyung", 3);
@@ -25,7 +27,6 @@ public class main {
         System.out.println("Te casaste con " + listaBTS[opcion - 1].nombre + ", Felicidades!");
 
 
-
         System.out.println("Psst... Quien sera tu amante? ;)");
 
         for (int i = 0; i < listaBTS.length; i++) {
@@ -41,11 +42,21 @@ public class main {
             System.out.println("Jeje... tu amante sera " + listaBTS[opcion - 1].nombre);
         }
 
-        int numRandom = 0;
+        int numRandom = rand.nextInt(0, listaBTS.length - 1);
+        while (listaBTS[numRandom] == null) {
+            numRandom = rand.nextInt(0, 3);
+        }
+        System.out.println("Oh no! " + esposo + " ha descubierto tu infidelidad! Se ha casado con " + listaBTS[numRandom].nombre);
 
+        numRandom = rand.nextInt(0, listaBTS.length - 1);
+        while (listaBTS[numRandom] == null) {
+            numRandom = rand.nextInt(0, 3);
+        }
 
+        sc.nextLine();
+        sc.nextLine();
 
-        System.out.println("Oh no!" + esposo + " ha descubierto tu infidelidad! Se ha casado con ");
+        System.out.println("Repampanos, te has embarazado de " + listaBTS[numRandom].nombre + "!! \nFIN.");
 
         sc.close();
     }

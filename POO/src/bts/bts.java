@@ -5,6 +5,7 @@ public class bts {
     int posicion;
     boolean esEsposo = false;
     boolean esAmante = false;
+    String casadoCon;
 
     bts(String nombre, int posicion) {
         this.nombre = nombre;
