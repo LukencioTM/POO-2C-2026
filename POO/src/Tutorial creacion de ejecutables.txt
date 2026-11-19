@@ -1,0 +1,25 @@
+CREAR EJECUTABLES A PARTIR DE ARTEFACTOS EN INTELLJ IDEA (DE UN PAQUETE, NO DE TODO EL PROYECTO)
+
+- En IntelliJ IDEA ir a opciones > Project Structure > Artifacts
+- Le das al botón "+" y "add JAR" > "From modules and dependencies"
+- Aplicas y cerras. vas a la seccion "Build" y "Build Artifacts" y "Build"
+- Seleccionas el main de tu paquete
+- Se creara en "out" el .jar con el main de tu paquete
+
+- Vas a CMD y pones 
+C:\Users\USUARIO\.jdks\openjdk-27\bin\jpackage.exe --type app-image --name "POO-2C-2026" --input C:\Users\Luka\IdeaProjects\POO-2C-2026\out\artifacts\POO_2C_2026_jar --main-jar POO-2C-2026.jar --win-console
+
+
+
+DONDE: 
+"C:\Users\USUARIO\.jdks\openjdk-27\bin\" <<< =========== Ruta del programa jpackage que crea un ejecutable a partir de un .jar y lo guarda ahí mismo
+
+> jpackage.exe --type app-image" <<< =========== Parámetros iniciales 
+
+> --name "NOMBRE DEL EJECUTABLE" <<< =========== Nombre del ejecutable
+
+> --input C:\Users\USUARIO\IdeaProjects\POO-2C-2026\out\artifacts\POO_2C_2026_jar <<< =========== RUTA del .jar
+
+> --main-jar POO-2C-2026.jar --win-console" <<< =========== parámetro extra
+
+18/11/2026 18:57PM --- AGUANTE LA PROGRAMACION CARAJO

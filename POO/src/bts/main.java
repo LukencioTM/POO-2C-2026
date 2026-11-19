@@ -20,43 +20,32 @@ public class main {
             System.out.println(i + 1 + ". " + listaBTS[i].nombre);
         }
         opcion = sc.nextInt();
-
-        for (int i = 0; i < listaBTS.length; i++) {
-            if (i == opcion - 1) {
-                listaBTS[opcion].esEsposo = true;
-            }
-        }
-
-        System.out.println("Te casaste con " + esposo + ", Felicidades!");
+        listaBTS[opcion - 1].esEsposo = true;
+        esposo = listaBTS[opcion - 1].nombre;
+        System.out.println("Te casaste con " + listaBTS[opcion - 1].nombre + ", Felicidades!");
 
 
 
         System.out.println("Psst... Quien sera tu amante? ;)");
-        if (jimin.esEsposo == true) {
-            System.out.println("1.Jungkook\n2.Taehyung\n3.Hoseok");
-        } else if (jungkook.esEsposo == true) {
-            System.out.println("1.Jimin\n2.Taehyung\n3.Hoseok");
-        } else if (taehyung.esEsposo == true) {
-            System.out.println("1.Jimin\n2.Jungkook\n3.Hoseok");
-        } else {
-            System.out.println("1.Jimin\n2.Jungkook\n3.Taehyung");
+
+        for (int i = 0; i < listaBTS.length; i++) {
+            if (listaBTS[i].esEsposo != true) {
+                System.out.println(i + 1 + ". " + listaBTS[i].nombre);
+            }
         }
 
         opcion = sc.nextInt();
 
-        switch (opcion) {
-            case 1 -> if (jimin.esEsposo == true) {
-                jungkook.esAmante = true;
-                System.out.println("Jeje... tu amante sera " + jungkook.nombre);
-            } else
-            case 2 -> if (jungkook.esEsposo == true) {
-                System.out.println("Jeje... tu amante sera " + );
-            }
-            case 3 -> System.out.println("Jeje... tu amante sera " + );
-            case 4 -> System.out.println("Jeje... tu amante sera " + );
+        if (listaBTS[opcion - 1].esEsposo == false || listaBTS[opcion - 1] != null) {
+            listaBTS[opcion - 1].esAmante = true;
+            System.out.println("Jeje... tu amante sera " + listaBTS[opcion - 1].nombre);
         }
 
-        System.out.println("Oh no!" + esposo + "ha descubierto tu infidelidad! o.O");
+        int numRandom = 0;
+
+
+
+        System.out.println("Oh no!" + esposo + " ha descubierto tu infidelidad! Se ha casado con ");
 
         sc.close();
     }
