@@ -7,20 +7,19 @@ CREAR EJECUTABLES USANDO ARTEFACTOS EN INTELLJ IDEA (TODO EL PROYECTO)
 - Se creara en "out" el .jar con el main de tu paquete
 
 - Vas a CMD y pones 
-C:\Users\USUARIO\.jdks\openjdk-27\bin\jpackage.exe --type app-image --name "POO-2C-2026" --input C:\Users\Luka\IdeaProjects\POO-2C-2026\out\artifacts\POO_2C_2026_jar --main-jar POO-2C-2026.jar --win-console
+C:\Users\USUARIO\.jdks\openjdk-27\bin\jpackage.exe --type app-image --name "POO-2C-2026" --input C:\Users\Luka\IdeaProjects\NOMBRE-PROYECTO\out\artifacts\NOMBRE_jar --main-jar NOMBRE.jar --win-console
 
 
 
-
-DONDE: 
+DONDE:
 "C:\Users\USUARIO\.jdks\openjdk-27\bin\" <<< =========== Ruta del programa jpackage que crea un ejecutable a partir de un .jar y lo guarda ahí mismo
 
-> jpackage.exe --type app-image" <<< =========== Parámetros iniciales 
+> jpackage.exe --type app-image" <<< =========== Parámetros iniciales
 
 > --name "NOMBRE DEL EJECUTABLE" <<< =========== Nombre del ejecutable
 
-> --input C:\Users\USUARIO\IdeaProjects\POO-2C-2026\out\artifacts\POO_2C_2026_jar <<< =========== RUTA del .jar
+> --input C:\Users\USUARIO\IdeaProjects\NOMBRE-PROYECTO\out\artifacts\NOMBRE_jar <<< =========== RUTA del .jar
 
-> --main-jar POO-2C-2026.jar --win-console" <<< =========== parámetro extra
+> --main-jar NOMBRE.jar --win-console" <<< =========== parámetro extra
 
 18/11/2026 18:57PM
