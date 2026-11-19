@@ -29,14 +29,14 @@ public class main {
         System.out.println("Psst... Quien sera tu amante? ;)");
 
         for (int i = 0; i < listaBTS.length; i++) {
-            if (listaBTS[i].esEsposo != true) {
+            if (!listaBTS[i].esEsposo) {
                 System.out.println(i + 1 + ". " + listaBTS[i].nombre);
             }
         }
 
         opcion = sc.nextInt();
 
-        if (listaBTS[opcion - 1].esEsposo == false || listaBTS[opcion - 1] != null) {
+        if (!listaBTS[opcion - 1].esEsposo || listaBTS[opcion - 1] != null) {
             listaBTS[opcion - 1].esAmante = true;
             System.out.println("Jeje... tu amante sera " + listaBTS[opcion - 1].nombre);
         }
