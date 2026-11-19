@@ -1,4 +1,4 @@
-CREAR EJECUTABLES A PARTIR DE ARTEFACTOS EN INTELLJ IDEA (DE UN PAQUETE, NO DE TODO EL PROYECTO)
+CREAR EJECUTABLES USANDO ARTEFACTOS EN INTELLJ IDEA (TODO EL PROYECTO)
 
 - En IntelliJ IDEA ir a opciones > Project Structure > Artifacts
 - Le das al botón "+" y "add JAR" > "From modules and dependencies"
@@ -8,6 +8,7 @@ CREAR EJECUTABLES A PARTIR DE ARTEFACTOS EN INTELLJ IDEA (DE UN PAQUETE, NO DE T
 
 - Vas a CMD y pones 
 C:\Users\USUARIO\.jdks\openjdk-27\bin\jpackage.exe --type app-image --name "POO-2C-2026" --input C:\Users\Luka\IdeaProjects\POO-2C-2026\out\artifacts\POO_2C_2026_jar --main-jar POO-2C-2026.jar --win-console
+
 
 
 
@@ -22,4 +23,4 @@ DONDE:
 
 > --main-jar POO-2C-2026.jar --win-console" <<< =========== parámetro extra
 
-18/11/2026 18:57PM --- AGUANTE LA PROGRAMACION CARAJO
+18/11/2026 18:57PM
