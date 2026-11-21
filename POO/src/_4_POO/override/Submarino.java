@@ -1,0 +1,12 @@
+package _4_POO.override;
+
+// Entidad hija
+public class Submarino extends Entidad {
+
+    // El movimiento de la entidad hija es diferente
+    // Lo reemplaza con uno suyo mas apropiado
+    @Override
+    public void mover() {
+        System.out.println("Sumergiendo submarino");
+    }
+}
